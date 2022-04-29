@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AnalizeTexts", "AnalizeTexts.pyproj", "{03CD64AA-305B-4220-83EA-9CF35DBAA0AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03CD64AA-305B-4220-83EA-9CF35DBAA0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CD64AA-305B-4220-83EA-9CF35DBAA0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5CDF45E-0754-4D26-AA35-2DD844D2D20D}
+	EndGlobalSection
+EndGlobal
