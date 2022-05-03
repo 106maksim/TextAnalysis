@@ -20,7 +20,7 @@ from natasha import (
 
 class dictionaries:
     def SaveDictionary(self):
-        file = open('Dict.txt','w')
+        file = open('narkotiki','w')
         for i in self.diction:
             line = i[0]+'#'
             for j in i[1]:
@@ -30,7 +30,7 @@ class dictionaries:
         file.close()
 
     def LoadDictionory(self):
-        file = open('Dict.txt','r')
+        file = open('narkotiki.txt','r')
         filesdata = file.readlines()
         for i in filesdata:
             line = i.split('#')
@@ -106,7 +106,7 @@ for _ in doc.tokens:                             #вывод слов без м�
 #print(text_new)
 
 dictionary.Show()
-analis(text_new)
+#analis(text_new)
 
 
 '''for _ in doc.tokens:  #вывод слов и знаков в начальной форме
